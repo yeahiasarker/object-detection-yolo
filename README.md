@@ -4,7 +4,7 @@ This code is the implementation of [Yolov3](https://arxiv.org/abs/1804.02767) Th
 - First download the pretrained weights and ncessary files from here.
 Now for webcam the default webcam port is 0. If you are using any external webcam, just change the port number with your ip address of ip camera or the external port.
 #### How To Check Webcam Port Number In Linux
-First type this command
+First type this command in the terminal
 ~~~ 
 ls /dev/video*
 ~~~
@@ -24,6 +24,7 @@ git clone
 ~~~ 
 cd ...
 ~~~
+ Now replace all the downloaded files to the "yolo" folder
 ~~~ 
 python object_detection.py
 ~~~
