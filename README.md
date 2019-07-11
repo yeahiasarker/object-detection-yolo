@@ -6,6 +6,15 @@ If you are using linux, just type in the terminal
 ~~~
 wget https://pjreddie.com/media/files/yolov3.weights
 ~~~
+- Install necessary modules
+~~~
+pip install opencv-python
+~~~
+~~~
+pip install numpy
+~~~
+<br>
+
 Now for webcam the default webcam port is 0. If you are using any external webcam, just change the port number with your ip address of ip camera or the external port.
 #### How To Check Webcam Port Number In Linux
 First type this command in the terminal
@@ -28,7 +37,7 @@ git clone
 ~~~ 
 cd ...
 ~~~
- Now replace all the downloaded files to the "yolo" folder and type this command in the terminal
+ Now replace all the downloaded weight to the "yolo" folder and type this command in the terminal
 ~~~ 
 python object_detection.py
 ~~~
