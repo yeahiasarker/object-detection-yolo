@@ -36,10 +36,10 @@ Remember if you are using the builtin webcam of your laptop, you don't need to f
 <br>
 ##### Here comes the main part
 ~~~ 
-git clone 
+git clone https://github.com/goyeahia/object-detection-yolo
 ~~~
 ~~~ 
-cd ...
+cd object-detection-yolo
 ~~~
  Now replace all the downloaded weight to the "yolo" folder and type this command in the terminal
 ~~~ 
