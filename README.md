@@ -4,22 +4,25 @@ This code is the implementation of [Yolov3](https://arxiv.org/abs/1804.02767) Th
 - First download the pretrained weights and ncessary files from here.
 Now for webcam the default webcam port is 0. If you are using any external webcam, just change the port number with your ip address of ip camera or the external port.
 #### How To Check Webcam Port Number In Linux
-First Enter
+First type this command
 ~~~ 
-ls /dev/video
+ls /dev/video*
 ~~~
-Now eject the external webcam. Again the same command.
+* Now eject the external webcam. Again type the same command.
 ~~~
-ls /dev/video
+ls /dev/video*
 ~~~
-You can see the a port is missing. That's the desired port of our external webcam.
+* You can see the a port is missing. That's the desired port of our external webcam.
 <br>
 Remember if you are using the builtin webcam of your laptop, you don't need to follow this process. After pressing the command you will see only one port.
 ##### Here comes the main part
-~~~ git clone 
+~~~ 
+git clone 
 ~~~
-~~~ cd ...
+~~~ 
+cd ...
 ~~~
-~~~ python object_detection.py
+~~~ 
+python object_detection.py
 ~~~
 ###### Hurray !!! You did it !!!
