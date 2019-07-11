@@ -14,7 +14,9 @@ ls /dev/video*
 ~~~
 * You can see the a port is missing. That's the desired port of our external webcam.
 <br>
+
 Remember if you are using the builtin webcam of your laptop, you don't need to follow this process. After pressing the command you will see only one port.
+<br>
 ##### Here comes the main part
 ~~~ 
 git clone 
