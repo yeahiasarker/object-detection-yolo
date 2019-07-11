@@ -6,12 +6,16 @@ If you are using linux, just type in the terminal
 ~~~
 wget https://pjreddie.com/media/files/yolov3.weights
 ~~~
-- Install necessary modules
+- Install necessary modules. Type in the terminal
 ~~~
 pip install opencv-python
 ~~~
 ~~~
 pip install numpy
+~~~
+
+~~~
+pip install imutils
 ~~~
 <br>
 
