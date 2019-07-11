@@ -24,8 +24,9 @@ git clone
 ~~~ 
 cd ...
 ~~~
- Now replace all the downloaded files to the "yolo" folder
+ Now replace all the downloaded files to the "yolo" folder and type this command in the terminal
 ~~~ 
 python object_detection.py
 ~~~
 ###### Hurray !!! You did it !!!
+If you are having any os compatiblity issue, let me know. I will try to fix as soon as possible. This mini project has been successfully run on ArchLinux.
